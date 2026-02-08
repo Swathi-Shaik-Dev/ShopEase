@@ -17,7 +17,6 @@ class App extends Component {
     cartList: [],
   }
 
- 
   addCartItem = product => {
     const {cartList} = this.state
     const productObject = cartList.find(
@@ -38,7 +37,6 @@ class App extends Component {
       const updatedCartList = [...cartList, product]
       this.setState({cartList: updatedCartList})
     }
-    
   }
 
   incrementCartItemQuantity = id => {

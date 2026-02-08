@@ -1,0 +1,90 @@
+.payment-popup-container {
+  padding: 10%;
+  border: 1px solid #616e7c;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  background: #0d4e35;
+}
+
+.payment-heading {
+  color: #25a780;
+  margin-bottom: 20px;
+}
+
+.payment-options-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+input {
+  color: #25a780;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 18px;
+  color: #25a780;
+
+  margin-bottom: 10px;
+}
+
+.summary-head {
+  color: #25a780;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.order-summary {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirm-order-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #25a780;
+  border: none;
+  border-radius: 8px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.close-btn {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.success-message {
+  color: #25a780;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.cl-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #25a780;
+  border: none;
+  border-radius: 8px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
